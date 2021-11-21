@@ -1,0 +1,79 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-weight: 400;}
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+/**/
+header{background-color:whitesmoke; display: flex; box-shadow: 0px 0px 7px 0px; position: sticky; top: 0px;}
+.heading{ width: 20%; margin: 0% 1%; padding: 1%; border-radius: 50px; text-align: center; line-height: 50px;}
+.about_menu{ width: 78%; margin: 1%; }
+.about_menu ul{display: flex; justify-content: flex-end;}
+.about_menu ul li{list-style: none; margin: 0% 1%; padding: 1%; border-radius: 50px;}
+
+.heading:hover{background-color: rgb(190, 187, 187);}
+.about_menu ul li:hover{background-color:rgb(190, 187, 187);}
+/*  */
+
+.banner{height:650px;}
+.banner img{ width: 100%; height: 100%;}
+
+
+/*  */
+.row{height: 70px;}
+.row2{height: 70px; width: 80%; margin-left: 10%; border-bottom: 1px solid gray;}
+/*  */
+
+.about_food{display: flex; justify-content: space-evenly;}
+.abt{ width: 502px; margin: 5px;}
+.abt img{ width: 100%; height: 100%; margin: 5px;}
+.abt h1,h3{padding: 3%; text-align: center;} .abt p{line-height: 30px; color: gray;}
+
+/*  */
+
+.our_menu{display: flex; justify-content: space-evenly;  flex-direction: row-reverse;}
+.our_menu .abt h3{text-align: left;}
+/*  */
+
+.contact{width: 80%; margin: auto;}
+.contact h1{padding: 3%;}.contact p{border-bottom: 1px solid gray;}
+input{border: none;  width: 98%; padding: 1%; font-size: 1rem; line-height: 45px;}
+#btn{padding: 1%;margin: 1%; border: none;}
+#btn:hover{background-color: rgb(189, 186, 186);}
+
+/*  */
+
+footer{background-color: whitesmoke;}
+
+@media only screen and (max-width: 1230px) {
+  .heading{width: 28%;}
+  .about_menu{ width: 58%;}
+}
+
+@media only screen and (max-width: 835px) {
+  .heading{width: 38%;}
+  .about_menu{ width: 48%;}
+}
+
+@media only screen and (max-width: 700px) {
+  .banner{height: 450px;}
+  .about_food{display: flex; justify-content: space-evenly; flex-direction: column;}
+  .our_menu{display: flex; justify-content: space-evenly;  flex-direction: column;}
+  .abt{ width: 96%; margin: 1%;}
+.abt img{ width: 100%; height: 100%; margin: 1%;}
+.abt p{line-height: 30px; color: gray; text-align: center;}
+.our_menu .abt h3{text-align: center;}
+}
+@media only screen and (max-width: 700px) {
+  .heading{width: 48%;}
+  .about_menu{ width: 48%;}
+}
+
+@media only screen and (max-width: 535px) {
+  .about_menu{display: none;}
+  .heading{width: 50%;}
+}
+
+@media only screen and (max-width: 452px) {
+  .heading{width: 100%;}
+}
