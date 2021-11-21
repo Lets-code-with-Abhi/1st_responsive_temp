@@ -71,6 +71,10 @@ footer{background-color: whitesmoke;}
   .banner{height: 350px;}
 }
 
+@media (max-width:600px){
+  .about_menu{display: none;}
+  }
+
 @media only screen and (max-width: 535px) {
   .about_menu{display: none;}
   .heading{width: 50%;}
