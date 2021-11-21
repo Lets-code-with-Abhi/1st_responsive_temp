@@ -63,10 +63,11 @@ footer{background-color: whitesmoke;}
 .abt img{ width: 100%; height: 100%; margin: 1%;}
 .abt p{line-height: 30px; color: gray; text-align: center;}
 .our_menu .abt h3{text-align: center;}
-}
-@media only screen and (max-width: 700px) {
   .heading{width: 48%;}
   .about_menu{ width: 48%;}
+}
+@media only screen and (max-width: 600px) {
+  .banner{height: 350px;}
 }
 
 @media only screen and (max-width: 535px) {
@@ -76,4 +77,9 @@ footer{background-color: whitesmoke;}
 
 @media only screen and (max-width: 452px) {
   .heading{width: 100%;}
+  .banner{height: 300px;}
+}
+
+@media only screen and (max-width:300px){
+  .banner{height: 200px;}
 }
